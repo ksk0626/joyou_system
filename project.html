@@ -145,7 +145,7 @@
 
     .table-scroll tbody{
       display:block;
-      max-height:320px;   /* 약 5~6행 */
+      max-height:400px;   /* 실적이 늘어나서 높이를 조금 더 키웠습니다 */
       overflow-y:auto;
     }
 
@@ -178,44 +178,43 @@
       }
       .banner h2{ font-size:32px; }
     }
-     /* ===== 헤더 로고 ===== */
-header h1{
-  margin:0;
-  font-size:0;
-  line-height:1;
-}
+    
+    /* ===== 헤더 로고 ===== */
+    header h1{
+      margin:0;
+      font-size:0;
+      line-height:1;
+    }
 
-.brand{
-  display:flex;
-  align-items:center;
-  gap:0;
-}
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:0;
+    }
 
-.brand img{
-  width:60px;
-  height:60px;
-  object-fit:contain;
-  transform: translateY(2px);
-  display:block;
-}
+    .brand img{
+      width:60px;
+      height:60px;
+      object-fit:contain;
+      transform: translateY(2px);
+      display:block;
+    }
 
-.brand span{
-  font-size:22px;
-  font-weight:700;
-  line-height:1;
-  display:block;
-}
-
-
+    .brand span{
+      font-size:22px;
+      font-weight:700;
+      line-height:1;
+      display:block;
+    }
   </style>
 </head>
 <body>
 
 <header>
   <h1 class="brand">
-  <img src="img/mark.png" alt="조유시스템 로고">
-  <span>조유시스템</span>
-</h1>
+    <img src="img/mark.png" alt="조유시스템 로고">
+    <span>조유시스템</span>
+  </h1>
 
   <nav>
     <a href="index.html">홈</a>
@@ -246,6 +245,14 @@ header h1{
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <td class="col-client">광주글로벌모터스</td>
+            <td>광주글로벌모터스 4개라인 공사 및 시운전</td>
+          </tr>
+          <tr>
+            <td class="col-client">미국 HMGMA</td>
+            <td>공사 및 시운전</td>
+          </tr>
           <tr>
             <td class="col-client">이화모듈</td>
             <td>FRT, RR 샤시 조립, 출하라인</td>
