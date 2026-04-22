@@ -59,7 +59,7 @@
     .banner{
       background:
         linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
-        url('img/project_banner.jpg'); /* ✅ 너가 정해둔 배너 이미지로 파일명만 맞춰줘 */
+        url('img/project_banner.jpg');
       background-size:cover;
       background-position:center;
       background-repeat:no-repeat;
@@ -140,21 +140,20 @@
     .table-scroll tbody tr{
       display:table;
       width:100%;
-      table-layout:fixed;  /* ✅ 헤더/바디 열 정렬 고정 */
+      table-layout:fixed;
     }
 
     .table-scroll tbody{
       display:block;
-      max-height:400px;   /* 실적이 늘어나서 높이를 조금 더 키웠습니다 */
+      max-height:400px;
       overflow-y:auto;
     }
 
     .table-scroll thead{
       display:table;
-      width:calc(100% - 8px); /* 스크롤바 보정 */
+      width:calc(100% - 8px);
     }
 
-    /* 열 폭 고정 */
     .col-client{ width:260px; }
 
     /* ===== Footer ===== */
@@ -246,14 +245,6 @@
         </thead>
         <tbody>
           <tr>
-            <td class="col-client">광주글로벌모터스</td>
-            <td>광주글로벌모터스 4개라인 공사 및 시운전</td>
-          </tr>
-          <tr>
-            <td class="col-client">미국 HMGMA</td>
-            <td>공사 및 시운전</td>
-          </tr>
-          <tr>
             <td class="col-client">이화모듈</td>
             <td>FRT, RR 샤시 조립, 출하라인</td>
           </tr>
@@ -280,6 +271,14 @@
           <tr>
             <td class="col-client">모비스</td>
             <td>울산 3모듈 모비스 라인 공사 및 시운전</td>
+          </tr>
+          <tr>
+            <td class="col-client">광주글로벌모터스</td>
+            <td>광주글로벌모터스 4개라인 공사 및 시운전</td>
+          </tr>
+          <tr>
+            <td class="col-client">미국 HMGMA</td>
+            <td>공사 및 시운전</td>
           </tr>
         </tbody>
       </table>
